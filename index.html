@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - HTML e JS</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <div class="container">
+        <h1>Formulário de Cadastro</h1>
+        <h2>Preencha seus dados</h2>
+        <form id="form-cadastro">
+            <input type="text" id="nome-usuario" required placeholder="Nome completo">
+            <p class="error-message">
+                O nome precisa ser completo
+            </p>
+            <input type="number" id="numero-telefone" required placeholder="Número do Telefone">
+            <input type="email" id="email-completo" required placeholder="Seu e-mail">
+            <button id="btn-cadastrar" type="submit">Cadastrar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
